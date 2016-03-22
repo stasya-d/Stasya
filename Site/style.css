@@ -5,13 +5,13 @@
 	font: Comic Sans MS;
 	color: white;
 	}
-
+.todos {
+	padding: 0 0 100px;
+}
 /*Структура сайта*/
 div.mid{
-	//margin-top: 10px;
-	width: 1000px; 
-	margin: 0 auto; 
-	
+	width: 1000px;
+	margin: 0 auto;
 	}
 div.menu{
 	height: 35px;	
@@ -105,7 +105,9 @@ TD, TH {
 	//text-align: center ;
 	border-radius: 20px; 
 	padding: 5px;
+	
 	}
 TR.my-message {
+	word-wrap:break-word;
     background: #0E0B0B; /* Цвет фона моего сообщения */
 }
