@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+<title>Чат</title>
+<link rel="shortcut icon" type="image/x-icon" href="images/head.png">
+<link rel="stylesheet" href="style.css" media="all">
+<script src="js/todo.js"></script>
+</head>
+<body onload="run();">
+	<div class="header">
+		<div class="mid">
+			<header>
+				<img src="images/chat.png" alt="Название сайта" title="Логотип сайта">
+			</header>
+		</div>
+	</div>
+	
+	<div class="content">
+		<div class="mid">
+			<div class="menu">
+			<form method='name'>
+				<button id="user-name-button"
+							type="button"
+							form="chat"
+							href="/user"
+							class="todo-button">
+					<i> <a href="user.html">User name</a></i>
+				</button>
+			</form>
+			<form method='name2'>
+				<button id="chat-Button"
+							type="button"
+							form="name"
+							class="todo-button">
+					<i>Chat</i>
+				</button>
+			</form>
+			</div>
+			<i>
+			<div class="see-text"> 
+				<div class="enter-text">
+					<table id="table"  style="width:100%" class="delete-message" height=30> 
+						<tr>
+							<td width = 10%>Name</td>
+							<td width = 74%>Message</td>
+							<td width = 8%></td>
+							<td width = 8%>Time</td>
+						</tr>
+						
+					</table>
+				</div>
+			</div>
+			</i>
+				
+			<div class="todo-controls">
+				<input id="todoText" 
+							class="todo-input" 
+							type="text" 
+							placeholder="Введите сообщение...">
+				<button id="addButton"
+							type="button"
+							class="todo-button">
+				<i>Add</i>
+				</button>
+			</div>
+			
+		</div>
+	</div>
+	<footer class="footer">
+		<img src="images/name.png" alt="Добродей Анастасии, ФПМИ 2016">
+	</footer>
+	<div style="display:none" id="task-template">
+        <li class="item strikeout" id= "data-task-id">
+    </div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+﻿body{
+	background: #270C0C url(images/tweed.png); 
+	margin:0 auto; 
+	//width: 1000px; /*шапка*/
+	font: Comic Sans MS;
+	color: white;
+	}
+.todos {
+	padding: 0 0 100px;
+}
+/*Структура сайта*/
+div.mid{
+	width: 1000px;
+	margin: 0 auto;
+	}
+div.menu{
+	height: 35px;	
+	background: #8A0808 url(images/35.png); 
+	border: 1px solid #FF0000; 
+	margin-top: 15px;
+	}
+div.header{
+	height: 60px; 
+	background: #8A0808 url(images/wood.png); 
+	border: 1px solid #FF0000;
+	}
+div.see-text{
+	//width: 10;
+	height: 500px; 
+	border: 1px solid #FF0000; 
+	background: #000000;
+	}
+div.footer{
+	height: 10px;
+	margin: 0 auto;
+	}
+div.a{
+	height: 1px;
+    position: fixed;
+	}
+div.null{
+	margin-top: 350px;
+	height: 1px;
+}
+div.block-messages{
+	
+}
+div.content{
+	//height: 500;
+}
+div.todo-control{height:30}
+div.enter-text {
+	
+    overflow: auto; /* Добавляем полосы прокрутки */
+   // width: 990px; /* Ширина блока */
+    height: 490px; /* Высота блока */
+    padding: 5px; /* Поля вокруг текста */
+    border: solid 1px black; /* Параметры рамки */
+   } 
+button {height: 35px;
+	width: 160px;
+	background: #8A0808 url(images/35.png); 
+	border: 1px solid #FF0000; 
+	//padding: 5px;
+	
+	float: right;
+	}
+.addButton{
+	
+}
+button.change-message{
+	width: 20px;
+	height: 20px; 
+	border: 1px solid  #1C1C1C;
+	border-radius: 5px; 
+	background: #270C0C url(images/change.png); 
+	margin: 1px; 	
+	}
+button.change-message:hover {
+	background: #1C1C1C url(images/change.png);
+	border-color: #502222;
+	}
+button.delete-message{
+	
+	width: 20px;
+	height: 20px;
+	border: 1px solid #1C1C1C;
+	border-radius: 5px; 
+	background: #270C0C url(images/delete.png); 
+	margin: 1px;
+	margin-right: 10px; /* Отступ слева */
+	}
+button.delete-message:hover {
+		background: #1C1C1C url(images/delete.png);
+	border-color: #502222;
+	}
+input{
+	height: 31px;	
+	width: 830px;
+	background: #FFCC99; 
+	border: 1px solid #FF0000; 
+	margin:0; 
+}
+TD, TH {
+	//text-align: center ;
+	border-radius: 20px; 
+	padding: 5px;
+	
+	}
+TR.my-message {
+	word-wrap:break-word;
+    background: #0E0B0B; /* Цвет фона моего сообщения */
+}
